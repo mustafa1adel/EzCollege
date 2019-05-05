@@ -1,2 +1,2 @@
-FROM nginx:alpine
-COPY . /usr/share/nginx/html
+FROM nginx
+COPY nginx.conf /etc/nginx/nginx.conf
